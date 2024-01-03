@@ -1,0 +1,470 @@
+*{
+    padding:0px;
+    margin:0px;
+    border: 0px;
+}
+body{
+    padding:0px;
+   
+   background-color:#EAE6DF ;
+}
+.outer{
+ 
+    display: inline;
+}
+
+.inner{
+    display:flex;
+height:160px;
+width:100%;
+
+background-color:#A7967E;
+box-shadow: 3px 3px 3px 3px #142E54;
+}
+
+ .inner i{
+ color:#142E54;
+  
+font-size: 100px;
+  width:40px;
+  margin-top: 30px;
+  margin-left: 15px;
+
+ 
+}
+
+.header_item{
+    display: flex;
+    margin: auto;
+    
+    
+}
+.inner .header_item p{ 
+    font-size:90px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+    margin-left: 300px;
+   
+    margin-right: -50px;
+  font-size: 40px;
+  height:60px;
+  width:243px;
+
+ opacity:0.8;
+filter: hue-rotate(180deg) drop-shadow(1px 1px rgb(9, 9, 9));
+}
+
+.inner .header_item p:hover{
+    opacity:1;
+    filter:none;
+    height:60px;
+    width:240px;
+   border: 3px solid black;
+    border-radius: 40%;
+    box-shadow: #363331;
+    font-size: 40px;
+    animation-duration: 3s;
+animation-timing-function: ease-in;
+animation-delay: 0;
+animation-iteration-count: infinite;
+animation-direction:reverse;
+}
+
+@keyframes fontAnimate{
+    from{
+font-size: 40px;
+    }
+    to{
+font-size: 42px;
+    }
+    
+    }
+
+.first_image{
+
+    height:800px;
+    width:790px;
+    float:right;
+    display:inline;
+    
+}
+ .first_image img{
+    height:950px;
+   width:940px;
+    border-radius:70%;
+    margin-left:-220px;
+    margin-top:21px;
+    animation-name:widthAnimate;
+animation-duration: 3s;
+animation-timing-function: ease-in;
+animation-delay: 0;
+animation-iteration-count: infinite;
+animation-direction:reverse;
+    
+}
+
+@keyframes widthAnimate{
+    from{
+  width:940px
+    }
+    to{
+     width:1000px;
+    }
+    
+    }
+.first_heading{
+   
+    font-size: 103px;
+    color: #142E54;
+
+    font-weight: 550;
+    width:900px;
+    
+    
+}
+
+
+.first_para{
+
+   width:700px;
+  font-size: 35px;
+    color: #142E54;
+  
+  
+opacity:0.7;
+font-family:Georgia, 'Times New Roman', Times, serif;
+animation-name:colorAnimate;
+animation-duration: 3s;
+animation-timing-function: ease-in;
+animation-delay: 0;
+animation-iteration-count: infinite;
+animation-direction: right;
+}
+
+@keyframes colorAnimate{
+    from{
+   background-color:#EAE6DF;
+    }
+    to{
+      background-color: #d0c8c2;
+    }
+    
+    }
+   
+
+.intro{
+    height:300px;
+    width:650px;
+   
+    margin-top: 80px;
+}
+/*************************************************************************************************/
+.second_img{
+    margin-top:300px;
+height:1200px;
+width:1200px;
+background-size: cover;
+filter: sepia(100%);
+background-image: url(resort_img.jpg);
+box-shadow:5px 5px 5px 5px #142E54;
+
+}
+
+
+.second_img:hover{
+    filter: none;
+    box-shadow:5px 5px 5px 5px rgb(101, 101, 113);
+    
+}
+.para_second{
+    height:250px;
+}
+
+.para_second p{
+    margin-top:-20px;
+    margin-right:16px;
+    font-size:35px;
+    width:44%;
+    clear:both;
+    float:right;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    opacity:0.8;
+    filter: hue-rotate(180deg) drop-shadow(1.5px 1.5px rgb(9, 9, 9));
+font-family:Georgia, 'Times New Roman', Times, serif;
+   
+}
+.discounts1{
+    height:600px;
+width:600px;
+border-radius: 100%;
+background-color: rgb(90, 93, 93);
+float:right;
+box-shadow:3px 4px 4px 4px #363331;
+margin-top: -780px;
+margin-right:30px;
+}
+
+.discounts2{
+    height:450px;
+width:450px;
+border-radius: 100%;;
+background-color: rgb(99, 103, 103);
+float:right;
+box-shadow:3px 4px 4px 4px #46463f;
+margin-top: -500px;
+margin-right:200px;
+
+}
+
+.discounts2 p{
+font-size: 88px;
+color: #eda436;
+margin-top: 170px;
+margin-left: 60px;
+}
+
+.discounts1 h1{
+    margin-top:-1px;
+font-size: 100px;
+font-family: 'Times New Roman', Times, serif;
+color:#e5a84d;
+display:flex;
+justify-content:center;
+align-items: center;
+}
+.discounts1 p{
+    margin-top: 2px;
+    font-size: 36px;
+    font-family: 'Times New Roman', Times, serif;
+    color:#e5a84d;
+    opacity:0.7;
+    float: right;
+    margin-right:65px;
+}
+.discounts2:hover{
+    background-color: #5d5d58;
+}
+
+.discounts1:hover{
+    background-color: #4a4a46;
+}
+  .percent{
+    margin-top: 40px;
+    font-size:170px;
+    font-family: 'Times New Roman', Times, serif;
+    color:#e5a84d;
+    display:flex;
+    justify-content:center;
+    align-items: center; 
+    animation-name:fontAnimation;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+@keyframes fontAnimation{
+    from{
+        font-size:170px;
+    }
+    to{
+        font-size:345px;
+    }
+}
+
+.para_second p:hover{
+    transition: transform 1s linear;
+  filter:none;
+    opacity:1;
+
+}
+
+
+.third-part1{
+    display: flex;
+}
+
+.thirdimga img{
+    margin-top:-100px;
+    display: inline;
+    height:600px;
+    width:600px;
+    border-radius: 100%;
+    opacity:0.8;
+    box-shadow: 10px 14px 14px 14px rgb(131, 130, 130);
+}
+
+
+.thirdimgb img{
+    margin-top:90px;
+   margin-left:-120px;
+    display: inline;
+    height:600px;
+    width:600px;
+    border-radius: 100%;
+    opacity:0.8;
+    box-shadow: 10px 14px 14px 14px rgb(121, 118, 118);
+}
+
+.thirdimgc img{
+  margin-left:40px;
+  height:600px;
+  width:600px;
+    border-radius: 100%;
+    margin-top:-270px;
+    opacity:0.8;
+    box-shadow: 10px 14px 14px 14px rgb(121, 118, 118);
+}
+
+.third img:hover{
+opacity:1;
+box-shadow: 10px 14px 14px 14px rgb(57, 54, 54);
+}
+
+.thirdpart3room{
+height:400px;
+width:400px;
+float:right;
+margin-top:-600px;
+
+}
+
+.thirdpart3room h1{
+    float:left;
+    margin-left: -300px;
+    animation-name:fontAnimation;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    font-size:64px;
+}
+
+@keyframes fontAnimation{
+from{
+    font-size:64px;
+}
+to{
+    font-size:84px;
+}
+
+}
+.thirdpart3room p{
+    float:left;
+    font-size: 35px;
+   margin-left: -250px;
+}
+
+.thirdpart3food{
+    height:400px;
+    width:400px;
+    margin-left: -200px;
+    float:right;
+    margin-top:-400px;
+    
+    }
+    
+    .thirdpart3food h1{
+        margin-top: 370px;
+        float:left;
+        margin-left: -300px;
+        animation-name:fontAnimation;
+        animation-duration: 3s;
+        animation-timing-function: ease-in;
+        animation-delay: 0;
+        animation-iteration-count: infinite;
+        animation-direction: normal;
+        font-size: 68px;
+    }
+    
+    @keyframes fontAnimation{
+    from{
+        font-size: 68px;
+    }
+    to{
+        font-size:82px;
+    }
+    }
+
+    .thirdpart3food p{
+        
+        margin-left: -250px;
+        float:left;
+        font-size: 35px;
+        
+    }
+
+
+   h2{
+  
+   
+        height:100px;
+        width:140px;
+        background-color:#A7967E;
+        font-size:37px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+        margin-top:20px;
+        float:left;
+     border-radius: 4px;
+        margin-left: -24px;
+        animation-name:widthAnimation;
+        animation-duration: 3s;
+        animation-timing-function: ease-in;
+        animation-delay: 0;
+        animation-iteration-count:infinite;
+        animation-direction: normal;
+      
+    }
+   
+    @keyframes widthAnimation{
+        from{
+       width:270px;
+        }
+        to{
+            width:320px;
+        }
+        }
+
+
+/* ----------------------------------footer-------------------------------------- */
+.footer{
+    height:1000px;
+    width:100%;
+    background-color: rgb(29, 25, 25);
+    margin-top: 500px;
+    color: #EAE6DF;
+}
+ .contactbasic p{
+    margin-top: 250px;
+    font-size: 60px;
+   
+      color: #EAE6DF;
+    margin-top:70px;
+      margin-left: 820px;
+  }
+
+.contact-links{
+ 
+    margin-top: 300px;
+    margin-left: 900px;
+}
+.contact-links i{
+
+  font-size: 55px;
+  margin-left: 100px;
+  opacity: 0.8;
+}
+
+.contact-links i:hover{
+opacity: 1;}
+
+
+.formost{
+    margin-left: 140px;
+}
